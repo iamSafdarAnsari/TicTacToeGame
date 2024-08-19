@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #f2a5e6;
+    text-align: center;
+  }
+  
+  .container {
+    height: 70vh;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+  }
+  
+  /* .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 8vmin;
+    color: #b0413e;
+    background-color: #ffffc7;
+  } */
+  
+
+  /* Default box styling */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #ecf0f1;
+  border: 2px solid #2c3e50;
+  border-radius: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Styling for X */
+.x-color {
+  color: #e74c3c;  /* Red color for X */
+}
+
+/* Styling for O */
+.o-color {
+  color: #3498db;  /* Blue color for O */
+}
+
+/* Hover effect for the boxes */
+.box:hover {
+  background-color: #3498db;
+  transform: scale(1.05);
+}
+
+
+  #reset-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #e8c6c6;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #msg {
+    color: #b9d5f0;
+    font-size: 5vmin;
+  }
+  
+  .msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
