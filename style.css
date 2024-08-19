@@ -4,7 +4,7 @@
   }
   
   body {
-    background-color: #f2a5e6;
+    background-color: #f4c6ed;
     text-align: center;
   }
   
@@ -55,17 +55,17 @@
 
 /* Styling for X */
 .x-color {
-  color: #e74c3c;  /* Red color for X */
+  color: #07a2f6;  /* Red color for X */
 }
 
 /* Styling for O */
 .o-color {
-  color: #3498db;  /* Blue color for O */
+  color: #ff04fb;  /* Blue color for O */
 }
 
 /* Hover effect for the boxes */
 .box:hover {
-  background-color: #3498db;
+  background-color: #a3d8ec;
   transform: scale(1.05);
 }
 
@@ -89,7 +89,7 @@
   }
   
   #msg {
-    color: #b9d5f0;
+    color: green;
     font-size: 5vmin;
   }
   
